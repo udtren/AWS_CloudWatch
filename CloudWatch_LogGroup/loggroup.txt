@@ -1,0 +1,11 @@
+/var/log/messages,/var/log/messages,RETAIN,THREE_MONTHS
+/var/log/secure,/var/log/secure,RETAIN,THREE_MONTHS
+/var/log/cron,/var/log/cron,RETAIN,THREE_MONTHS
+/var/log/cups/access_log,/var/log/cups/access_log,RETAIN,THREE_MONTHS
+/var/log/cups/error_log,/var/log/cups/error_log,RETAIN,THREE_MONTHS
+/var/log/last.log,/var/log/last.log,RETAIN,THREE_MONTHS
+/var/log/vsftpd.log,/var/log/vsftpd.log,RETAIN,THREE_MONTHS
+
+//SystemRoot//System32//Winevt//Logs//Application.evtx,//SystemRoot//System32//Winevt//Logs//Application.evtx,RETAIN,THREE_MONTHS
+//SystemRoot//System32//Winevt//Logs//Security.evtx,//SystemRoot//System32//Winevt//Logs//Security.evtx,RETAIN,THREE_MONTHS
+//SystemRoot//System32//Winevt//Logs//System.evtx,//SystemRoot//System32//Winevt//Logs//System.evtx,RETAIN,THREE_MONTHS

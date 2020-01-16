@@ -1,0 +1,10 @@
+ec2,cloudwatch-ec2-for-testing-Server1-InstanceID
+
+as,listcreator-asg
+
+lambda,SecretsManager
+lambda,StartStop_EC2
+
+s3,test-month-report
+s3,cfn-automation-test
+s3,ssm-poc-output
