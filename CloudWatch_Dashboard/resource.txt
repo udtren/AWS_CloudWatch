@@ -1,0 +1,15 @@
+ec2,EC2InstanceId,EC2Name
+
+ecs,ClusterName,ServiceName
+
+clb,CLBName
+
+alb,ALBFullName
+
+tgw,TGWIdentifier
+
+rds,RDSClusterIdentifier
+
+s3,S3BucketName
+
+clf,ClfIdentifier
