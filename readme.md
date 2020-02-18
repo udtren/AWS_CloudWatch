@@ -10,6 +10,11 @@
 
   各サービスのMetricとWidgetを定義する。
   
+ ・resource.txt
+ 
+  サービスごとのMetric作成に必要の値を記入する。
+  Formatは サービス名,サービス識別子のExport名,<一部サービスはNameSpaceも記載>
+  
 ・CloudWatch.py
 
   <code>python CloudWatch.py</code>でCloudFormationテンプレートを作成する。
