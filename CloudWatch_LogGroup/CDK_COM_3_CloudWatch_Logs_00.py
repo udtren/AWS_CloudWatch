@@ -13,10 +13,10 @@ def create_template():
     「CFn_COM_3_CloudWatch_Logs_00.yaml」のトップに追記する。
 
     """
-    os.system("cdk synth > CFn_COM_3_CloudWatch_Logs_00.yaml")
+    os.system("cdk synth > CloudWatch_Logs.yaml")
     text = []
 
-    with open("CDK_COM_3_CloudWatch_Logs_app.py", encoding='UTF-8') as f:
+    with open("CloudWatch_Logs_app.py", encoding='UTF-8') as f:
         for line in f:
             if re.match(r'\#', line):
                 output = line.rstrip('\n')
@@ -24,10 +24,10 @@ def create_template():
 
     comment = '\n'.join(text)+'\n'
 
-    with open("CFn_COM_3_CloudWatch_Logs_00.yaml", "r+", encoding='UTF-8') as f:
+    with open("CloudWatch_Logs.yaml", "r+", encoding='UTF-8') as f:
         a = f.read()
 
-        with open("CFn_COM_3_CloudWatch_Logs_00.yaml", "w+", encoding='UTF-8') as f:
+        with open("CloudWatch_Logs.yaml", "w+", encoding='UTF-8') as f:
             f.write(comment + a)
 
 create_template()
