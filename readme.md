@@ -13,6 +13,7 @@
  ・resource.txt
  
   サービスごとのMetric作成に必要の値を記入する。
+  
   Formatは サービス名,サービス識別子のExport名,<一部サービスはNameSpaceも記載>
   
 ・CloudWatch.py
