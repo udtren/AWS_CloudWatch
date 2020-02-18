@@ -7,10 +7,10 @@ def create_template():
     """
     CloudWatchのCloudFormationテンプレート作成処理。
     「cdk synth」を実行し、CloudFormationテンプレートの標準出力を
-    「CFn_COM_3_CloudWatch_Logs_00.yaml」に出力する。
+    「CloudWatch_Logs.yaml」に出力する。
 
-    次に「CDK_COM_3_CloudWatch_Logs_app.py」のヘッダコメントを読取り、
-    「CFn_COM_3_CloudWatch_Logs_00.yaml」のトップに追記する。
+    次に「CloudWatch_Logs_app.py」のヘッダコメントを読取り、
+    「CloudWatch_Logs.yaml」のトップに追記する。
 
     """
     os.system("cdk synth > CloudWatch_Logs.yaml")
